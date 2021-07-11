@@ -1,0 +1,21 @@
+.boxes {
+  margin-top: 20px;
+}
+.box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.box img {
+  width: 90px;
+}
+
+@media (max-width: 768px) {
+  .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}

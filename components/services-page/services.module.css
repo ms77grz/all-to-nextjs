@@ -1,0 +1,45 @@
+.article {
+  float: left;
+  width: 65%;
+}
+
+.title {
+}
+
+.services li {
+  list-style: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  background-color: #e6e6e6;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.quote input,
+.quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .article,
+  .sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .quote button {
+    display: block;
+    width: 100%;
+  }
+  .quote input,
+  .quote textarea {
+    width: 97%;
+    margin-bottom: 5px;
+  }
+}
